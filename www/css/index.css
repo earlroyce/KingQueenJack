@@ -1,0 +1,27 @@
+
+		body {
+			background-color: #F1F7AD;
+		}
+		h2, h2 {color: #2F4F4F;}
+		
+		table, td, tr {
+			vertical-align: top;
+			padding: 2px;
+			}
+	
+		#display {
+			font-size: 200%;
+		
+		}
+		#winner, #instructions {
+			visibility: hidden;
+		}
+		
+		.button {
+			background-color: white;
+			box-shadow: none;
+			border-style: none;
+		}
+		
+		#instructions {color: green;}
+		#winner {color: #FFFAFA}

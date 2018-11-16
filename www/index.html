@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="js/kingQueenJack.js"></script>
+        <title>King Queen Jack</title>
+    </head>
+	
+	<body>
+	
+		<div onload="arrange()">
+		<center>
+			<h1>
+				<span style="color:black">♠</span>
+				<span style="color:red">♥</span>
+				<span style="color:black">♣</span>
+				<span style="color:red">♦</span>
+			</h1>
+			<h2>King Queen Jack<h2>
+			<h5>A game by Earl and Laica</h5>
+			
+			<table style="text-align:center">
+			
+			<tr><td>
+			<p id="display">Start</p>
+			<b><p id="winner">Hidden</p></b>						
+			</td></tr>
+			<tr><td>
+			<p id="chooseMatch">Choose Match</p>
+			<button class="button" id="btnKing" onclick="clickKing(); gameReady();"><b>K</b>ing</button>
+			<button class="button" id="btnQueen" onclick="clickQueen(); gameReady();"><b>Q</b>ueen</button>
+			<button class="button" id="btnJack" onclick="clickJack(); gameReady();"><b>J</b>ack</button>
+			<p>
+			<span><b>Draw Pile: </b></span><span id="pilecount">0</span>
+			<span> | </span>
+			<span><b>Graveyard: </b></span><span id="gravecount">0</span>
+			</p>			
+			<!-- <button id="shuffler" onclick="shuffleNum()">Shuffle</button> -->
+			<button class="button" id="drawer" onclick="drawCardNum()" disabled>Draw</button>
+			<p id="instructions">Hidden</p>
+
+			<!-- <p> ♠ ♥ ♦ ♣ </p> -->
+			</td></tr>
+			</table>
+			
+		</center>	
+		</div>
+		
+	</body>
+	
+</html>
