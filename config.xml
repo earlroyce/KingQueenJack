@@ -21,6 +21,6 @@
         <allow-intent href="market:*" />
     </platform>
 	
-	<icon src="www/js/icon.png" />
+	<icon src="res/icon.png" />
 	
 </widget>
